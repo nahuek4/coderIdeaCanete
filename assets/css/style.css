@@ -340,6 +340,7 @@ form button{
 }
 .producto{
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     border: solid 1px rgb(136, 136, 99);
     justify-content: center;
@@ -354,6 +355,9 @@ form button{
     background-color: rgb(152, 152, 114);
     text-transform: uppercase;
     box-shadow: -7px 5px .1em .1em rgba(128, 122, 122, 0.274);
+}
+.producto:nth-child(7){
+    margin-bottom: 11.5em;
 }
 .producto label{
     font-size: 1.1em;
@@ -371,7 +375,7 @@ form button{
     display: flex;
     justify-content: center;
     transition: all .5s;
-    margin-top: 1em;
+    margin-top: .4em;
     padding: .4em;
     width: 8em;
     font-size: 18px;
