@@ -26,6 +26,14 @@ img{
     text-transform: uppercase;
     flex-direction: column;
 }
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: "Quicksand";
+}
+.navbar a:hover{
+    color: black;
+}
 .navbar ul{
     list-style: none;
     display: flex;
@@ -33,17 +41,6 @@ img{
 }
 .navbar ul li{
     padding: 1em;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: white;
-    font-family: "Quicksand";
-}
-.navbar ul li a:target{
-    color: red;
-}
-.navbar ul li a:hover{
-    color: black;
 }
 .toggle-menu{
     width: 40px;
@@ -66,6 +63,7 @@ footer{
     background-color: #76a09b;
     height: 4em;
     font-size: 1em;
+    color: white;
 }
 footer img{
     width: 1.5em;
@@ -469,21 +467,15 @@ form button{
     width: 100%;
     background-color: rgb(152, 152, 114);
     color: white;
-    height: 12em;
+    height: 10em;
 }
 .inicioNos{
     display: flex;
     width: 100%;
     justify-content: center;
-    text-align: center;
-    margin-top: 2em;
     flex-direction: column;
 }
 .inicioNos h2{
     font-size: 3em;
 }
-.inicioNos p{
-    margin-top: .7em;
-    font-size: 2.1em;
-    margin-bottom: 1em;
-}
+
